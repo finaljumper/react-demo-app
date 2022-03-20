@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import { GroupScene, GroupCard } from '../groups';
 
 function App() {
   return (
@@ -9,8 +9,9 @@ function App() {
           Splid remake
         </p>
       </header>
-      
-
+      <GroupScene>
+        <GroupCard />
+      </GroupScene>
     </div>
   );
 }
