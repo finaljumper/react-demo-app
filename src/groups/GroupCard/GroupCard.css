@@ -19,7 +19,7 @@
   filter: drop-shadow(0 0 0.5rem rgb(19, 209, 187));
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradient 5s ease-in-out infinite;
+  animation: gradient 3s linear infinite;
 }
 
 @keyframes gradient {
@@ -38,5 +38,6 @@
   font-size: 1.7rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  max-height: 2rem;
+  max-height: 2.4em;
+  overflow: hidden;
 }
